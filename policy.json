@@ -1,0 +1,22 @@
+{
+  "block_syscalls": [
+    "execve", "execveat",
+    "fork", "vfork", "clone",
+    "ptrace",
+    "mprotect",
+    "mount", "umount2",
+    "reboot",
+    "delete_module",
+    "init_module",
+    "swapon", "swapoff",
+    "acct",
+    "kexec_load",
+    "open_by_handle_at",
+    "bpf",
+    "fanotify_init", "fanotify_mark",
+    "syslog",
+    "ioperm", "iopl",
+    "seccomp"
+  ]
+
+}

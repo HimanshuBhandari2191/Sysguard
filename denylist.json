@@ -1,0 +1,10 @@
+{
+  "denylist": {
+    "execve": "HIGH",
+    "kill": "MEDIUM",
+    "ptrace": "HIGH",
+    "openat": "MEDIUM",
+    "unlink": "MEDIUM",
+    "futex": "LOW"
+  }
+}
